@@ -37,4 +37,9 @@ function onPlayerReady(event) {
     stopButton.addEventListener("click", function () {
         player.stopVideo();
     });
+
+    var modalVideo = document.getElementsByClassName("modal-video");
+    modalVideo.addEventListener("click", function () {
+        player.stopVideo();
+    });
 }
